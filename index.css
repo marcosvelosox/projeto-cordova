@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+*:focus{
+    outline:0;
+}
+.page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    
+}
+
+#telaload{
+    background: rgba(0, 0, 0, 0.548);
+    z-index: 9999 ;
+    background-image: url(../img/8-coisas-que-todo-fa-da-marvel-ama-photo709589609-44-23-16.jpg);
+
+    
+    
+     
+}
+.imgload{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+#telalogin{
+    background: url(../img/8-coisas-que-todo-fa-da-marvel-ama-photo709589609-44-23-16.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: rgb(18, 51, 196);
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    font-family: 'Ewert', cursive;;
+    border-bottom: 2px solid orangered;
+    
+}
+.navbar span{
+    font-size: 17px;
+    line-height: 55px;
+    color: white;
+}
+.btnfooter
+{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: white;
+    bottom: 0;
+    text-transform: uppercase;
+}
+.lista{
+    list-style-type: none;
+    padding:0;
+}
+.itemlista{
+    padding: 15px;
+    display:block;
+    border-bottom: 1px solid #bbb;
+    background:  white;
+
+}
+.painellogin{
+    width: 85%;
+    background: rgba(230, 220, 240, 0.418);
+    margin: 15px auto;
+    padding: 15px 5%;
+    border-radius: 5px;
+}
+.login{
+    width: 90%;
+    margin-bottom: 10px ;
+    padding:10px 5px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+.painel-login-header{
+    text-align:center;
+    margin-bottom: 5px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.btn{
+width: auto;
+padding: 10px 25px;
+border: 0;
+border-radius: 5px;
+text-transform:uppercase;
+}
+.btn-primary{
+    background: #03B3C5;
+    color: white;
+}
+#container{
+    background: rgba(255, 255, 255, 0.623);
+    width: 80%;
+    height:100%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+h1{
+    text-align: center;
+    Color: White;
+    font-family: 'Rajdhani', sans-serif;
+    background: rgba(0, 0, 0, 0.493);
+}
+#boddy{
+    background-image: url(../img/8-coisas-que-todo-fa-da-marvel-ama-photo709589609-44-23-16.jpg)
+}
+.Thor{
+    width: 80%;
+    height: 50%;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Rajdhani', sans-serif; 
+    font-weight: bold;
+    font-size: 1.3rem;
+    
+}
+.T{
+    color: rgb(187, 9, 9);
+    font-family: 'Rajdhani', sans-serif; 
+    font-weight: bold;
+    font-size: 1.3rem;
+}
